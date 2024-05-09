@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chuyển Đổi Đơn Vị</title>
+</head>
+<body>
+
+<h1>Chuyển Đổi Đơn Vị</h1>
+
+<div>
+  <label for="giaTri">Nhập giá trị:</label>
+  <input type="number" id="giaTri">
+</div>
+
+<div>
+  <label for="donViGoc">Chọn đơn vị gốc:</label>
+  <select id="donViGoc">
+    <option value="m">Mét (m)</option>
+    <option value="ft">Feet (ft)</option>
+    <option value="in">Inch (in)</option>
+  </select>
+</div>
+
+<div>
+  <label for="donViDich">Chọn đơn vị muốn chuyển đổi:</label>
+  <select id="donViDich">
+    <option value="m">Mét (m)</option>
+    <option value="ft">Feet (ft)</option>
+    <option value="in">Inch (in)</option>
+  </select>
+</div>
+
+<button onclick="chuyenDoi()">Chuyển Đổi</button>
+
+<p id="ketQua"></p>
+
+<script src="bai4.js"></script>
+
+</body>
+</html>
