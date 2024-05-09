@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xác nhận mã sinh viên</title>
+</head>
+<body>
+
+<script>
+    // Hàm kiểm tra mã sinh viên
+    function kiemTraMaSinhVien() {
+        var maSinhVien = prompt("Nhập mã sinh viên của bạn:");
+        
+        // Kiểm tra nếu mã sinh viên đúng
+        if (maSinhVien === "123456") {
+            alert("Mã sinh viên đúng!");
+        } else {
+            // Hiện thông báo xác nhận nếu mã sinh viên không đúng
+            var xacNhan = confirm("Mã sinh viên không đúng. Bạn có muốn nhập lại không?");
+            if (xacNhan) {
+                kiemTraMaSinhVien(); // Gọi lại hàm kiểm tra nếu người dùng muốn nhập lại
+            } else {
+                alert("Hẹn gặp lại!"); // Thông báo khi người dùng không muốn nhập lại
+            }
+        }
+    }
+
+    // Gọi hàm kiểm tra mã sinh viên khi trang web được tải lên
+    kiemTraMaSinhVien();
+</script>
+
+</body>
+</html>
