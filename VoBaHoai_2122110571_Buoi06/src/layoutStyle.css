@@ -1,0 +1,36 @@
+img {
+    width: 100px;
+    height: auto;
+    }
+    .carousel-inner {
+        width: 100%;
+        height: 600px; /* Chiều cao cố định cho slider */
+        overflow: hidden;
+    }
+
+    .carousel-item img {
+        width: 500px;
+        height: 600px;
+         /* Đảm bảo hình ảnh che phủ toàn bộ khu vực mà không bị méo */
+    }
+    .card-img-top{
+        height:300px;
+    }
+    .card{
+        border:1px solid skyblue;
+    }
+    .DSSP{
+        background-color:#2EFCAA ;
+    }
+    .TTT{
+        margin:0 0 20px 5px;
+    }
+    .toboco{
+        background-color: rgb(160, 242, 248);
+    }
+    .shorten {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+  

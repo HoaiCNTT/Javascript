@@ -1,0 +1,9 @@
+{
+    "products":[
+        {"ten":"nuoc ngot 1","gia":"10000"},
+        {"ten":"nuoc ngot 2","gia":"12000"},
+        {"ten":"nuoc ngot 3","gia":"11000"},
+        {"ten":"nuoc ngot 4","gia":"10000"},
+        {"ten":"nuoc ngot 5","gia":"7000"}
+    ]
+}
