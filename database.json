@@ -1,0 +1,251 @@
+{
+  "Categorys":[
+    {"id":1, "image": "hinh.jpg", "name": "thoi trang nu", "slug": "thoi-trang-nu"},
+    {"id":2, "image": "hinh.jpg", "name": "thoi trang nu", "slug": "thoi-trang-nu"},
+    {"id":3, "image": "hinh.jpg", "name": "thoi trang nu", "slug": "thoi-trang-nu"},
+    {"id":4, "image": "hinh.jpg", "name": "thoi trang nu", "slug": "thoi-trang-nu"},
+    {"id":5, "image": "hinh.jpg", "name": "thoi trang nu", "slug": "thoi-trang-nu"},
+    {"id":6, "image": "hinh.jpg", "name": "thoi trang nu", "slug": "thoi-trang-nu"},
+    {"id":7, "image": "hinh.jpg", "name": "thoi trang nu", "slug": "thoi-trang-nu"},
+    {"id":8, "image": "hinh.jpg", "name": "thoi trang nu", "slug": "thoi-trang-nu"}
+],
+
+
+"Brands":[
+    {"id":1, "image": "hinh.jpg", "name": "VietNam", "slug": "Viet-Nam"},
+    {"id":2, "image": "hinh.jpg", "name": "VietNam", "slug": "Viet-Nam"},
+    {"id":3, "image": "hinh.jpg", "name": "VietNam", "slug": "Viet-Nam"},
+    {"id":4, "image": "hinh.jpg", "name": "VietNam", "slug": "Viet-Nam"},
+    {"id":5, "image": "hinh.jpg", "name": "VietNam", "slug": "Viet-Nam"},
+    {"id":6, "image": "hinh.jpg", "name": "VietNam", "slug": "Viet-Nam"},
+    {"id":7, "image": "hinh.jpg", "name": "VietNam", "slug": "Viet-Nam"},
+    {"id":8, "image": "hinh.jpg", "name": "VietNam", "slug": "Viet-Nam"}
+],
+  "Banners" : [
+    {
+    "id":" 1", 
+    "name":"nuoc hoa nam",
+    "link":"nuoc-hoa-nam",
+    "sort_order":"1",
+    "position":"nam",
+    "description":"Nuoc hoa nam cho mua he",
+    "created_at":"20/05/2024",
+     "created_by":"Nhan vien 1 ",
+     "updated_at":"21/05/2025",
+    "updated_by":"Nhan vien 2", 
+    "status":"Active"}
+],
+"Menus":[
+    {
+        "id":" 1", 
+        "name":"nuoc hoa nam",
+        "link":"nuoc-hoa-nam",
+        "table_id":"1",
+        "type":"nam",
+        "created_at":"27/09/2024",
+        "created_by":"28/09/2024",
+        "updated_at":"27/09/2024",
+        "updated_by":"28/09/2024",
+        "status":"Active"
+        
+
+
+
+    }
+],
+"Orderr":[
+    {
+        "id":" 1", 
+        "user_id":"2",
+        "name":"nuoc hoa nam",
+        "phone":"0362957762",
+        "email":"1",
+        "address":"nam",
+        "note":"hhhhhh",
+        "created_at":"27/09/2024",
+       
+        "updated_at":"27/09/2024",
+        "updated_by":"28/09/2024",
+        "status":"Active"
+    }
+
+],
+  "products": [
+    {
+      "id":1,
+      "category_id": 1,
+      "brand_id": 1,
+      "name": "Quần Áo",
+      "slug":"quanao",
+      "price":50000,
+      "pricesale":40000,
+      "image": "baiviet1.png",
+      "qty": 100,
+      "detail":"Đẹp",
+      "description":"",
+      "created_at":"05/05/2022",
+      "created_by":"Boss",
+      "updated_at":"05/05/2024",
+      "updated_by":"Boss",
+      "status": "2"
+    },
+    {
+      "id":2,
+      "category_id": 2,
+      "brand_id": 1,
+      "name": "Giày Dép",
+      "slug":"giaydep",
+      "price":30000,
+      "pricesale":"",
+      "image": "baiviet2.png",
+      "qty": 100,
+      "detail":"Xịn",
+      "description":"",
+      "created_at":"05/05/2022",
+      "created_by":"Boss",
+      "updated_at":"05/05/2024",
+      "updated_by":"Boss",
+      "status": "2"
+    },
+    {
+      "id":3,
+      "category_id": 3,
+      "brand_id": 1,
+      "name": "Trang Sức",
+      "slug":"quanao",
+      "price":50000,
+      "pricesale":40000,
+      "image": "baiviet1.png",
+      "qty": 100,
+      "detail":"Đẹp",
+      "description":"",
+      "created_at":"05/05/2022",
+      "created_by":"Boss",
+      "updated_at":"05/05/2024",
+      "updated_by":"Boss",
+      "status": "2"
+    }
+  ],
+  "posts": [
+    {
+      "id":1,
+      "topic_id": 1,
+      "title": "Hình Đẹp",
+      "slug":"Bài Viết 1",
+      "detail":"Thích thú",
+      "image": "baiviet1.png",
+      "type": "post",
+      "description":"",
+      "created_at":"05/05/2022",
+      "created_by":"Boss",
+      "updated_at":"05/05/2024",
+      "updated_by":"Boss",
+      "status": "2"
+    },
+    {
+      "id":2,
+      "topic_id": 2,
+      "title": "Hình Đẹp",
+      "slug":"Bài Viết 2",
+      "detail":"Thích thú",
+      "image": "baiviet2.png",
+      "type": "post",
+      "description":"",
+      "created_at":"05/05/2022",
+      "created_by":"Boss",
+      "updated_at":"05/05/2024",
+      "updated_by":"Boss",
+      "status": "2"
+    },
+    {
+      "id":3,
+      "topic_id": 3,
+      "title": "Hình Đẹp",
+      "slug":"Bài Viết 3",
+      "detail":"Thích thú",
+      "image": "baiviet3.png",
+      "type": "post",
+      "description":"",
+      "created_at":"05/05/2022",
+      "created_by":"Boss",
+      "updated_at":"05/05/2024",
+      "updated_by":"Boss",
+      "status": "3"
+    }
+  ],
+ 
+  "user": [
+    {
+      "id":1,
+      "name": "Nguyễn Văn A",
+      "email": "A@gmail.com",
+      "phone":"0123456789",
+      "username":"A12",
+      "password":"123123",
+      "address":"Thủ Đức",
+      "image": "user1.png",
+      "role":"customer",
+      "created_at":"05/05/2022",
+      "created_by":"Boss",
+      "updated_at":"05/05/2024",
+      "updated_by":"Boss",
+      "status": "2"
+    },
+    {
+      "id":2,
+      "name": "Nguyễn Văn B",
+      "email": "B@gmail.com",
+      "phone":"0987654321",
+      "username":"A13",
+      "password":"123123",
+      "address":"Quận 5",
+      "image": "user2.png",
+      "role":"customer",
+      "created_at":"05/05/2022",
+      "created_by":"Boss",
+      "updated_at":"05/05/2024",
+      "updated_by":"Boss",
+      "status": "2"
+    },
+    {
+      "id":0,
+      "name": "Root",
+      "email": "root@gmail.com",
+      "phone":"0377290631",
+      "username":"Boss",
+      "password":"123123",
+      "address":"Q1",
+      "image": "admin.png",
+      "role":"admin",
+      "created_at":"05/05/2022",
+      "created_by":"Boss",
+      "updated_at":"05/05/2024",
+      "updated_by":"Boss",
+      "status": "2"
+    }
+  ],
+  "topics": [
+    {
+      "id": 1,
+      "name": "Tin tức1",
+      "slug": "tin-tuc1",
+      "description": "Tin tức1",
+      "created_at":"05/05/2022",
+      "created_by":"Boss",
+      "updated_at":"05/05/2024",
+      "updated_by":"Boss",
+      "status": "2"
+    },
+    {
+      "id": 2,
+      "name": "Tin tức2",
+      "slug": "tin-tuc2",
+      "description": "Tin tức2",
+      "created_at":"05/05/2022",
+      "created_by":"Boss",
+      "updated_at":"05/05/2024",
+      "updated_by":"Boss",
+      "status": "2"
+    }
+  ]
+}
